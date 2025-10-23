@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Autobiography</title>
+    <style>
+        body {
+            font-family: Calibre, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: aqua;
+            color: Black;
+        }
+        header {
+            text-align: center;
+            background-color: Green;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in;
+        }
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);           
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.8s ease-out forwards;
+        }
+        
+        #intro { animation-delay: 0.2s; }
+        #personal { animation-delay: 0.4s; }
+        #early { animation-delay: 0.6s; }
+        #edu { animation-delay: 0.8s; }
+        #hobbies { animation-delay: 1.0s; }
+        #ambition { animation-delay: 1.2s; }
+        #socials { animation-delay: 1.4s; }
+        #future { animation-delay: 1.6s; }
+        h1, h2 {
+            color: Black;
+        }
+        h2 {
+            border-bottom: 2px solid #4;
+            padding-bottom: 5px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 10px auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);            
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            animation-delay: 0.5s; 
+        }
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            color: white;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .social-links {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .social-links li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .social-links a {
+            color: Green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-links a:hover {
+            color: Blue;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: White;
+            font-style: italic;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        section:hover {
+            background-color: skyblue;
+            transform: scale(1.02);
+            transition: all 0.3s ease;
+        }
+        
+        img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Autobiography</h1>
+        <p>A Simple Story of My Life</p>
+    </header>
+
+    <section id="intro">
+        <h2>ANNYEONGHASEYO!</h2>
+        <hr>
+        <img src="1761206016454.jpg" alt="My Profile Picture" />
+        <p class="image-caption">A photo of me today.</p>
+        <p> “You wanna know about me? Well, I’m a kind heart, funny, and friendly man who loves learning new things and improving myself every day. I enjoy working with others, sharing ideas, and facing challenges that help me grow. I believe that with hard work and positivity, I can achieve my goals and inspire others to do the same.”</p>
+        </section>
+
+    <section id="personal">
+        <h2>Personal Information</h2>
+        <p>Here are some key details about me:</p>
+        <ul>
+            <li>Full Name: Steve Nash Y. Cumba</li>
+            <li>Age: 18</li>
+            <li>Born in: July 10, 2007 at Vincente Sotto Memorial Medical Center Cebu</li>
+            <li>Current Location: Bukid-Bukid Pajac Lapu-Lapu City</li>
+            <li>Email: stevenashcumba3@gmail.com</li>
+            <li>Phone: 09355057283</li>
+        </ul>
+   </section>
+
+    <section id="early">
+        <h2>Early Life</h2>
+           <img src="1761206019351.jpg" alt="Childhood Photo" />
+           <p class="image-caption">Me during my early years.</p>
+           <p>I grew up in Bukid-Bukid Pajac Lapu-Lapu City. As a child, I like playing outside with my friend. We played hide and seek or tumbang preso etc. My family helped me learn important lessons about what is good and bad. One memorable moment was we travelled in Animals Park I forget what the name of that park but It was very fun and I enjoyed it.</p>       <img src="path/to/your/childhood-photo.jpg" alt="Childhood Photo" />
+    </section>
+
+    <section id="edu">
+        <h2>Education and Achievements</h2>
+        <img src="1761206044322.jpg" alt="Education Photo" />      
+        <p>When I was in Elementary at Abuno Elementary School. I achieved With honors and Conduct Awards. In high school also at Abuno Hugh School I haven't achieved any medals or conduct awards. Senior High School I studied ABM which is Business Accountacy and Management I achieved conduct awards and later studied Computer Technology at Lapu-Lapu City College. </p>
+     </section>
+
+    <section id="hobbies">
+        <h2>Hobbies and Interests</h2>
+        <img src="1761206047486.jpg" alt="Hobby Photo" />
+        <p class="image-caption">Enjoying one of my favorite hobbies.</p>    
+        <p>In my free time, I enjoy activities that bring me joy and relaxation. Some of my hobbies include:</p>
+        <ul>
+            <li> Playing Basketball</li>
+            <li> Playing Mobile Games</li>
+            <li> Playing Chess</li>
+            <li> Watching K-drama's</li>
+        </ul>
+         </section>
+
+    <section id="ambition">
+        <h2>My Ambitions</h2>
+        <img src="1761206049651.jpg" alt="Photo" />
+        <p>My main ambition is to become a successful in future and to travel with my family to another country. To achieve this, I want to word hard and finish college life. I believe ambition comes from passion and persistence.</p>
+        </section>
+
+    <section id="socials">
+        <h2>Social Media</h2>
+        <img src="1761206052599.jpg" alt="Photo" />
+        <p>Connect with me online! Follow my updates and share thoughts:</p>
+        <ul class="social-links">
+            <li><a href="https://www.facebook.com/stevenash.cumba" target="_blank">Facebook</a>
+            <li><a href="https://www.instagram.com/_stvenash_?igsh=MWY5dHd1aXR4MGU4eQ==" target="_blank">Instagram</a>
+            <li><a href="https://www.tiktok.com/@nashcumba?_t=ZS-90JWRUA25p9&_r=1" target="Tiktok">Tiktok</a>
+            </ul>
+       </section>        
+</body>
+</html>
